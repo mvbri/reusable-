@@ -1,0 +1,15 @@
+
+
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "html": "pug --pretty -w _partials/pages",
+  "start": "sass --watch _private/scss/main.scss _private/css/main.css && npm run html & npm run css"
+  "css-pro": "sass _private/scss/main.scss:_private/css/main.min.css --style compressed"
+},
+
+Ejem php
+
+<?php 
+  $page_title = "BEEZ 💡 EMPATÍA DIGITAL👋";
+  ?>
+<?php include "_partials/header.php" ?>
